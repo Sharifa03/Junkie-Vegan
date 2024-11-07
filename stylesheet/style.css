@@ -1,0 +1,112 @@
+/* Algemene reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header en navigatie */
+header {
+    background-color: #F15BB5;
+    display: flex;
+    justify-content: center;
+ }
+
+ body {
+  font-family: "template-gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+ }
+ 
+ p {
+  padding: 4vw;
+  padding-bottom: 8vw;
+ }
+
+/* home */
+main {
+  background-color: #F15BB5;
+}
+
+div {
+  background-color: #F15BB5;
+}
+
+img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-yellow {
+  background-color: #E5E059;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  padding: 4vw;
+}
+
+.jvr-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4vw;
+}
+
+.jv-container {
+  background-color: #E5E059;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8vw;
+}
+
+.korte-intro {
+  background-color: #9BE2E6;
+}
+
+/* de ervaring */
+.uit-eten {
+  background-color: #F15BB5;
+
+}
+
+/* duurzaamheid */
+.duurzaamheid {
+  background-color: #9BE2E6; /* Light blue background color */
+    padding: 5vw; /* Add padding inside the box */
+    margin: 2vw ; /* Space between boxes */
+}
+
+.jv-duurzaam-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8vw;
+}
+
+  /* --footer--- */
+footer {
+    padding: 5vw;
+    background-color: #F15BB5;
+    color: #5b7cf1;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer a {
+    text-decoration: none;
+  }
